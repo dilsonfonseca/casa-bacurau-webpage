@@ -56,7 +56,13 @@
         <label for="">Nome do Titular</label>
         <input type="text">
     </fieldset>
-    <button>Cadastrar</button>
+    <button id="cadastrarButton">Cadastrar</button>
+    <script>
+        function showAlert(){
+            alert("Cadastro realizado!")
+        }
+        document.getElementById("cadastrarButton").addEventListener("click", showAlert)
+    </script>
 </div>
 </body>
 </html>
