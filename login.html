@@ -19,9 +19,15 @@
         <input type="email"> 
         <label for="usuario">Senha</label>
         <input type="password" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g">
-        <button>Entrar</button>
+        <button id="cadastrarButton">Entrar</button>
         <h3>Esqueceu sua senha?</h3>
         <h3>Cadastre-se</h3>
     </div>
+    <script>
+        function showAlert(){
+            alert("Cadastro realizado!")
+        }
+        document.getElementById("cadastrarButton").addEventListener("click", showAlert)
+    </script>
 </body>
 </html>
