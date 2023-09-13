@@ -1,75 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+html {
+  background: rgba(240, 195, 167, 0.45);
+}
+
+body {
+  min-width: 500px;
+  max-width: 900px;
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1 {
+  color: #ad6437;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.969px;
+  padding-top: 15px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.128);
+}
 
 
-html{
- background: rgba(240, 195, 167, 0.45);
+fieldset {
+  border: 1px solid #36aaad;
+  background-color: white;
+  border-radius: 10px;
+  color: #36aaad;
+  font-family: Raleway;
+  font-weight: 600;
+  margin: 40px;
+  padding: 20px;
 
 }
 
-body{
-    background-color: white;
-    margin: 50px;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.container-input {
+  margin: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1{
-    color: #AD6437;
-    text-align: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    letter-spacing: 0.969px;
-    padding-top: 15px;
-    }
-
-fieldset{
-    border: 1px solid #36AAAD;
-    background-color: white;
-    border-radius: 10px;
-    color: #36AAAD;
-    margin: 30px;
-    font-family: Raleway;
-    font-weight: 600;
+input {
+  display: inline-block;
+  text-align: left;
+  flex-direction: row;
+  width: 50%;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #36aaad;
+  color: #36aaad;
 }
 
-input{
-
-    width: 60%;
-    border-radius: 10px;
-    border: 1px solid black;
-    
-
+select {
+  border-radius: 10px;
+  border: 1px solid #36aaad;
+  color: #36aaad;
+  padding: 3px;
+  margin: 10px;
 }
 
-label{
-    font-family: Raleway;
-    font-weight: 600;
-    text-transform: uppercase;
-    display: block;
-    padding: 10px;
+label {
+  display: inline-block;
+  font-family: Raleway;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  padding: 10px;
 }
 
 button{
-    color: white;
-    padding-top: 12px;
-    font-family: 'Roboto', sans-serif;
-    background: #AD6437;
-    text-align: center;
-    display: flex;
-    margin: auto;
-    text-transform: uppercase;
-    width: 100.68px;
-    height: 40.6px;
-    justify-content: center;
-    border-radius: 39.9px;
-    border: 0px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.297);
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  background: #ad6437;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  text-transform: uppercase;
+  width: 100.68px;
+  height: 40.6px;
+  justify-content: center;
+  border-radius: 39.9px;
+  border: 0px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.297);
 }
 
 button:hover{
-    background-color: black;
-    cursor: pointer;
+  background-color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #a54e18b4;
 }
